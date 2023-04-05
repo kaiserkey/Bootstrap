@@ -33,6 +33,11 @@
 
 li a:hover{
     font-size: 20px !important;
+    transition: ;
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
 }
 
 /* adaptable responsivo */
