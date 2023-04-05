@@ -72,10 +72,9 @@ section img{
 }
 
 section h1{
-    color: #a8896c !important;
     font-size: 2rem;
     font-weight: 700;
-    color: black;
+    color: #a8896c !important;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
@@ -83,7 +82,7 @@ section h1{
 section h2{
     font-size: 1rem;
     font-weight: 400;
-    color: rgb(64, 59, 59);
+    color: #a8896c !important;
     margin-bottom: 20px;
 }
 
