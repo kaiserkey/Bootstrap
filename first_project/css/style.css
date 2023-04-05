@@ -1,16 +1,10 @@
 /* barra de navegacion */
 .navbar {
-    border: 0;
     font-size: 13px !important;
     line-height: 1.42857143 !important;
     letter-spacing: 4px;
-    border-radius: 0;
     font-family: Montserrat, sans-serif;
     padding: 2rem;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
     font-weight: 600;
 }
 
