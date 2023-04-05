@@ -94,7 +94,7 @@ section h2{
     margin-bottom: 20px;
     float: left;
 }
-.inicio-hr::after {
+.clearfix::after {
     content: "";
     display: block;
     clear: both;
