@@ -36,7 +36,7 @@
     .navbar-brand {
         display: none;
     }
-    .hero{
+    .hero-principal{
         display: flex;
         flex-direction: row;
         justify-content: center;
