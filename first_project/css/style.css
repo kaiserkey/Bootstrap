@@ -43,8 +43,6 @@ nav img{
 }
 
 nav img:hover{
-    width: 56px;
-    height: 56px;
     border: 2px solid #e95a0d;
     transition: 1s;
     -webkit-transition: 1s;
