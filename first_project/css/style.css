@@ -103,7 +103,7 @@ section h2{
     background-color:#604232;
     margin: 0 auto;
     margin-bottom: 10px;
-    margin-top: 50px;
+    margin-top: 10px;
     float: right;
     border-width: 4px;
 }
@@ -114,7 +114,7 @@ section h2{
     clear: both;
 }
 
-.i-hr::after {
+.fin-hr::after {
     content: "";
     display: block;
     clear: both;
