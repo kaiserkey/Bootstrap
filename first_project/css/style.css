@@ -3,6 +3,7 @@
 }
 /* barra de navegacion */
 .navbar {
+    background-color: #fbfaf6 !important;
     font-size: 13px !important;
     line-height: 1.42857143 !important;
     letter-spacing: 4px;
