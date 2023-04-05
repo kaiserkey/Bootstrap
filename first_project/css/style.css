@@ -51,7 +51,7 @@
 }
 
 /* seccion hero */
-hero{
+.hero{
     background-size: cover;
     height: 100vh;
     display: flex;
