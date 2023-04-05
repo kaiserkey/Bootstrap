@@ -86,7 +86,7 @@ section h2{
     margin-bottom: 20px;
 }
 
-#inicio-hr{
+.inicio-hr{
     width: 50%;
     height: 5px;
     background-color: #604232;
@@ -94,6 +94,7 @@ section h2{
     margin-bottom: 20px;
     float: left;
 }
+
 
 
 
