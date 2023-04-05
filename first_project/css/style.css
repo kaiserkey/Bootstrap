@@ -38,9 +38,6 @@
 
 /* seccion hero */
 section{
-    
-}
-.hero{
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -49,6 +46,9 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.hero{
+    
 }
 
 
