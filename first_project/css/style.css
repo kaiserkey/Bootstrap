@@ -1,6 +1,5 @@
 *{
-    margin: 0;
-    padding: 0;
+    
 }
 /* barra de navegacion */
 .navbar {
@@ -10,7 +9,6 @@
     font-family: 'Roboto Mono', monospace;
     padding: 2rem;
     font-weight: 600;
-    margin-top: 10px;
 }
 
 #navbar-color *{
