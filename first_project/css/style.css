@@ -48,7 +48,9 @@ section{
     flex-direction: column;
 }
 
-section img
+section img{
+    padding: 10px;
+}
 
 .hero{
     min-height: 450px;
