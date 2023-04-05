@@ -46,7 +46,7 @@
 
 @media screen and (min-width: 700px) {
     #login{
-        max-width: 650px !important;
+        max-height: 650px !important;
     }
 }
 
