@@ -13,7 +13,7 @@
 
 #navbar-color *{
     background-color: #ebe9df !important;
-    margin: -1px;
+    padding: -5px;
 }
 
 .navbar-collapse {
