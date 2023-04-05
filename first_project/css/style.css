@@ -37,7 +37,11 @@
     }
 }
 
-
+@media screen and (min-width: 700px) {
+    .hero-principal-img{
+        max-width: 650px !important;
+    }
+}
 
 /* seccion hero */
 section{
