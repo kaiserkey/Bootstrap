@@ -37,7 +37,8 @@
         display: none;
     }
     .hero{
-        margin-top: 150px;
+        display: flex;
+        
     }
 }
 
