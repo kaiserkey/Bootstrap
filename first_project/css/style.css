@@ -59,7 +59,7 @@ nav li a:hover{
     -moz-transition: 1s;
     -ms-transition: 1s;
     -o-transition: 1s;
-    box-shadow: #e95a0d 0px 0px 10px;
+    box-shadow: #e95a0d 10px 0px 10px;
 }
 
 /* adaptable responsivo */
