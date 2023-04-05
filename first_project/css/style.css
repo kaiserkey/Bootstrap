@@ -49,7 +49,7 @@ nav img:hover{
     -moz-transition: 1s;
     -ms-transition: 1s;
     -o-transition: 1s;
-    sha
+    box-shadow: #e95a0d;
 }
 
 nav li a:hover{
