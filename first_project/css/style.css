@@ -31,6 +31,10 @@
     -o-border-radius: 10%;
 }
 
+.hero-principal-img{
+    background-color: ;
+}
+
 nav li a:hover{
     font-size: 20px !important;
     transition: 1s;
