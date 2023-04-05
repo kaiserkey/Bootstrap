@@ -86,13 +86,13 @@ section h2{
     margin-bottom: 20px;
 }
 
-section .inicio-hr{
+.inicio-hr{
     width: 50%;
     height: 5px;
     background-color: #604232;
     margin: 0 auto;
     margin-bottom: 20px;
-    
+    float: left;
 }
 
 
