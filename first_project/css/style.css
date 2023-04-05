@@ -135,15 +135,13 @@ section p{
 }
 
 /* seccion contacto */
-.bg-image {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
 #contacto-image img{
     width: 580px;
     height: 1000px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
