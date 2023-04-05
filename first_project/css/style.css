@@ -36,6 +36,9 @@
     .navbar-brand {
         display: none;
     }
+    .navbar{
+        
+    }
 }
 
 @media screen and (min-width: 700px) {
