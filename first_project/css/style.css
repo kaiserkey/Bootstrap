@@ -92,8 +92,9 @@ section h2{
     background-color: #604232;
     margin: 0 auto;
     margin-bottom: 20px;
-    align-items: flex-start;
-    jus
+    dis
+    align-items: center;
+    justify-content: left;
 }
 
 
