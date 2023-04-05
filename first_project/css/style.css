@@ -59,7 +59,7 @@ section{
     -o-border-radius: 20px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 700px) {
     .hero-principal-img{
         max-width: 600px;
     }
