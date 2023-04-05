@@ -36,7 +36,10 @@ nav img{
     height: 55px;
     border-radius: 50%;
     border: 2px solid #ffffff;
-    float: ;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 nav li a:hover{
