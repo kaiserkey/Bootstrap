@@ -48,6 +48,8 @@ section{
     flex-direction: column;
 }
 
+section img
+
 .hero{
     min-height: 450px;
     text-align: center;
