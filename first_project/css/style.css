@@ -88,7 +88,6 @@ section h2{
 
 .inicio-hr hr{
     width: 50%;
-    height: 5px;
     background-color: #604232;
     margin: 0 auto;
     margin-bottom: 10px;
@@ -99,7 +98,6 @@ section h2{
 
 .fin-hr hr{
     width: 50%;
-    height: 5px;
     background-color:#604232;
     margin: 0 auto;
     margin-bottom: 50px;
