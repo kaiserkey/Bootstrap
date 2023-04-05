@@ -48,7 +48,6 @@ section{
     flex-direction: column;
 }
 .hero{
-    background-color: #ebe9df;
     min-height: 450px;
     text-align: center;
 }
