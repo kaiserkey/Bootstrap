@@ -3,19 +3,17 @@
 }
 /* barra de navegacion */
 .navbar {
-    
     font-size: 13px !important;
     line-height: 1.42857143 !important;
     letter-spacing: 4px;
     font-family: 'Roboto Mono', monospace;
     padding: 2rem;
     font-weight: 600;
-    
 }
 
 #navbar-color *{
     background-color: #ca9261 !important;
-    
+    color: #ffffff !important;
 }
 
 .navbar-collapse {
