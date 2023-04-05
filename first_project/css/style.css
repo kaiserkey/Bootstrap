@@ -20,10 +20,4 @@
 }
 
 @media screen and (max-width: 768px) {
-    .navbar-collapse {
-        align-items: center;
-        justify-content: space-between;
-    }
-}
     
-}
