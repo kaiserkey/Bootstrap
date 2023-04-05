@@ -19,6 +19,7 @@
     justify-content: space-between;
 }
 
+/* adaptable */
 @media screen and (max-width: 767px) {
     .navbar-brand {
         display: none;
