@@ -73,6 +73,11 @@ section{
 #hero-principal{
     padding: 10px;
     background-color: #604232;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
 }
 
 section h1{
@@ -88,11 +93,6 @@ section h2{
     font-weight: 500;
     color: #ffffff !important;
     margin-bottom: 20px;
-    border-radius: 20;
-    -webkit-border-radius: 20;
-    -moz-border-radius: 20;
-    -ms-border-radius: 20;
-    -o-border-radius: 20;
 }
 
 .inicio-hr hr{
