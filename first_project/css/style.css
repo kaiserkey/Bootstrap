@@ -49,7 +49,6 @@ section{
 }
 
 section img{
-
     width: 100%;
     max-width: 768px;
 }
@@ -60,7 +59,8 @@ section img{
 }
 
 .hero-principal{
-
+    padding: 10px;
+    mar
 }
 
 section h1{
