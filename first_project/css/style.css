@@ -152,6 +152,9 @@ section p{
 }
 
 /* footer */
+footer {
+    background-color: #604232 ;
+}
 footer a{
     text-decoration: none;
 }
