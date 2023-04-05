@@ -97,6 +97,8 @@ section h2{
     border-width: 4px;
 }
 
+
+
 .inicio-hr::after {
     content: "";
     display: block;
