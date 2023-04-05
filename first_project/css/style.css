@@ -19,7 +19,10 @@
     justify-content: space-between;
 }
 
-.navbar-brand
+.navbar-brand {
+    padding: 0 15px;
+    height: 50px;
+}
 
 /* adaptable responsivo */
 @media screen and (max-width: 767px) {
