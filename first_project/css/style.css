@@ -22,6 +22,11 @@
 
 .navbar-brand {
     margin-left: -80px;
+    border-radius: ;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 
 /* adaptable responsivo */
