@@ -42,7 +42,14 @@ nav img{
     -o-border-radius: 50%;
 }
 
-nav img:hgo
+nav img:hover{
+    border: 2px solid #8a5a41;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
 
 nav li a:hover{
     font-size: 20px !important;
