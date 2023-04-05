@@ -97,7 +97,9 @@ section h2{
     border-width: 4px;
 }
 
+.fin-hr hr{
 
+}
 
 .inicio-hr::after {
     content: "";
