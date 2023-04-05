@@ -21,6 +21,6 @@
 
 @media screen and (max-width: 768px) {
     .navbar-brand {
-        display: ;
+        display: none;
     }
 }
