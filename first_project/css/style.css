@@ -1,5 +1,5 @@
 *{
-    background-color: #fbfaf6 !important;
+    background-color: #efeee9 !important;
 }
 /* barra de navegacion */
 .navbar {
@@ -47,6 +47,7 @@ section{
     justify-content: center;
     flex-direction: column;
 }
+
 .hero{
     min-height: 450px;
     text-align: center;
