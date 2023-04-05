@@ -9,11 +9,12 @@
     font-family: 'Roboto Mono', monospace;
     padding: 2rem;
     font-weight: 600;
+    color: #ffffff !important;
 }
 
 #navbar-color *{
     background-color: #ca9261 !important;
-    color: #ffffff !important;
+    
 }
 
 .navbar-collapse {
