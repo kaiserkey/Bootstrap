@@ -39,7 +39,7 @@
 
 /* seccion hero */
 section{
-    color: #a8896c;
+    color: #a8896c !important;
     background-size: cover;
     height: 100vh;
     display: flex;
