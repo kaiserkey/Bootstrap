@@ -8,6 +8,10 @@
     border-radius: 0;
     font-family: Montserrat, sans-serif;
     padding: 2rem;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
 }
 
 .navbar-collapse {
