@@ -92,9 +92,7 @@ section .inicio-hr{
     background-color: #604232;
     margin: 0 auto;
     margin-bottom: 20px;
-    display: flex;
-    justify-content: left;
-    align-items: baseline;
+    
 }
 
 
