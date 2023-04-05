@@ -1,3 +1,6 @@
+*{
+    background-color: antiquewhite;
+}
 /* barra de navegacion */
 .navbar {
     font-size: 13px !important;
