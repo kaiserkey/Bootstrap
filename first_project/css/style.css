@@ -34,7 +34,7 @@
     background-size: cover;
     height: 100vh;
     display: flex;
-    pa
+    margin: 20px auto;
     align-items: center;
     justify-content: center;
     flex-direction: column;
