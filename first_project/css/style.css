@@ -86,7 +86,13 @@ section h2{
     margin-bottom: 20px;
 }
 
-.ini
+.inicio-hr{
+    width: 100px;
+    height: 5px;
+    background-color: #604232;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
 
 
 
