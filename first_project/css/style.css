@@ -156,13 +156,10 @@ footer {
     background-color: #604232;
     color: #ffffff;
     font-family: 'Roboto Mono', monospace;
+    letter-spacing: .3rem;
 }
 footer a{
     text-decoration: none;
-}
-
-footer small {
-    letter-spacing: .3rem;
 }
 
 
