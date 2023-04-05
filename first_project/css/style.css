@@ -136,7 +136,7 @@ section p{
 
 /* seccion contacto */
 .bg-image {
-    background-image: url(./img/contacto.jpg);
+    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
