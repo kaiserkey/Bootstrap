@@ -39,7 +39,6 @@
 
 /* seccion hero */
 section{
-    color: #a8896c !important;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -66,6 +65,7 @@ section img{
 .hero{
     min-height: 450px;
     text-align: center;
+    color: #a8896c !important;
 }
 
 .hero-principal{
