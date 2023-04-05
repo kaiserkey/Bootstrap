@@ -51,6 +51,7 @@ section{
 section img{
     padding: 10px;
     width: 100%;
+    max-width: ;
 }
 
 .hero{
