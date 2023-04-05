@@ -98,7 +98,14 @@ section h2{
 }
 
 .fin-hr hr{
-
+    width: 50%;
+    height: 5px;
+    background-color: #604232;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    float: left;
+    border-width: 4px;
 }
 
 .inicio-hr::after {
