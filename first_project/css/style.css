@@ -151,6 +151,10 @@ section p{
     font-family: 'Roboto Mono', monospace;
 }
 
+body {
+    height: 100%;
+}
+
 
 
 
