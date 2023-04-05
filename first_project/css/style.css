@@ -93,7 +93,8 @@ section .inicio-hr{
     margin: 0 auto;
     margin-bottom: 20px;
     display: flex;
-    jus
+    justify-content: left;
+    align-items: baseline;
 }
 
 
