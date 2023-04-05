@@ -114,6 +114,12 @@ section h2{
     clear: both;
 }
 
+.i-hr::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 
 
 
