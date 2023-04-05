@@ -31,7 +31,7 @@
     -o-border-radius: 10%;
 }
 
-li a:hover{
+nav li a:hover{
     font-size: 20px !important;
     transition: 1s;
     -webkit-transition: 1s;
