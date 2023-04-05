@@ -10,4 +10,7 @@
     padding: 2rem;
 }
 
-.navbar-
+.navbar-collapse {
+    align-items: center;
+    justify-content: center;
+}
