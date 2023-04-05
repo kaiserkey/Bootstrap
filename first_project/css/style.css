@@ -143,6 +143,7 @@ section p{
 
 #contacto-image img{
     width: 580px;
+    height:fit-content;
 }
 
 
