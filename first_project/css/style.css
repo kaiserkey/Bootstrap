@@ -11,7 +11,7 @@
     font-weight: 600;
 }
 
-#navbar-color{
+#navbar-color *{
     background-color: #ebe9df !important;
 }
 
