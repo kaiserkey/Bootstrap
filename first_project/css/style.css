@@ -159,12 +159,10 @@ footer {
 }
 footer a{
     text-decoration: none;
+    padding: 10px;
 }
 
-footer small{
-    padding: 5px;
-    margin-top: 10px !important;
-}
+
 
 
 
