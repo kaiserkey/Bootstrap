@@ -60,6 +60,7 @@ nav li a:hover{
     -ms-transition: 1s;
     -o-transition: 1s;
     box-shadow: #e95a0d82 0px 2px 0px;
+    margin-bottom: 3px;
 }
 
 /* adaptable responsivo */
