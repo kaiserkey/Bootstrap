@@ -96,6 +96,13 @@ section h2{
     margin-bottom: 20px;
 }
 
+section p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff !important;
+    margin-bottom: 20px;
+}
+
 .inicio-hr hr{
     width: 50%;
     background-color: #604232;
