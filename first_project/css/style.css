@@ -136,6 +136,7 @@ section p{
 
 /* seccion contacto */
 .bg-image {
+    image
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
