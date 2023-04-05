@@ -37,6 +37,8 @@
     }
 }
 
+
+
 /* seccion hero */
 section{
     background-size: cover;
@@ -57,12 +59,6 @@ section{
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-}
-
-@media screen and (min-width: 700px) {
-    .hero-principal-img{
-        max-width: 650px !important;
-    }
 }
 
 .hero{
