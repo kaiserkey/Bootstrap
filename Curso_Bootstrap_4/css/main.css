@@ -1,0 +1,50 @@
+.columna{
+    background-color: rgb(199, 189, 189);
+    border: 1px solid black;
+    font-size: 24px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+body{
+    margin-top: 40px;
+}
+
+header{
+    background: sienna;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.banner{
+    background:wheat;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.servicios .servicio{
+    background: tan;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.sobrenosotros{
+    background: rgb(197, 126, 34);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+aside{
+    background: rgb(199, 188, 174);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer{
+    background: sienna;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.row{
+    margin-bottom: 20px;
+}
