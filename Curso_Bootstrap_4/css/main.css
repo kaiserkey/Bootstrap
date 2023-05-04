@@ -51,9 +51,10 @@ footer{
 
 .padre{
     background-color: royalblue;
-    padding: 50px;
+    padding: 20px;
 }
 
 .hijo{
+    padding: 50px;
     
 }
