@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Components</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+
+</head>
+
+<body class="container-fluid bg-dark text-light position-relative" data-bs-spy="scroll">
+    <div class="h1">SCROLLSPY</div>
+    <div class="container">
+
+        <nav class="nav nav-pills" id="robotNav">
+            <a href="#dolores" class="nav-link active">Dolores</a>
+            <a href="#bubbles" class="nav-link" aria-current="page" href="#">Bubbles</a>
+            <a href="#cosmo" class="nav-link">Cosmo</a>
+        </nav>
+
+        <div class="position-relative mt-3" data-bs-spy="scroll" data-bs-offset="0" tabindex="0"
+            style="height: 400px; overflow:scroll">
+
+            <h4 id="dolores">Dolores</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam dolores dolorem consequatur! Consequatur
+                unde laudantium harum magnam, perferendis minima, eos iste sapiente aspernatur dicta dolores eum
+                voluptatum facilis, reprehenderit fugiat.</p>
+            <p>Commodi accusamus optio nesciunt minima minus tempore dolorum ullam ea odio, quas molestiae vel
+                exercitationem accusantium incidunt totam veritatis cum, omnis, sint in quam magni et fugit. Quisquam,
+                deleniti a.</p>
+            <p>Commodi vel quia accusantium quam labore sint modi esse saepe iste voluptatem eveniet provident nostrum
+                quo, facilis debitis ipsa, qui soluta nihil? Mollitia nesciunt veritatis quaerat laborum, sunt vero
+                inventore.</p>
+            <p>Debitis magnam, porro consequatur modi quibusdam cum officiis ullam vero, voluptates eligendi laboriosam,
+                repellendus placeat corrupti delectus harum in tenetur quos nisi quisquam alias ut veniam. Quam,
+                blanditiis. Natus, nemo.</p>
+            <p>Asperiores animi enim quia! Eaque reprehenderit, maiores, vero numquam molestiae excepturi asperiores non
+                voluptatem atque nihil fuga voluptate praesentium obcaecati ex nemo. Adipisci, eveniet veritatis
+                incidunt laudantium magni nesciunt quasi?</p>
+
+            <h4 id="bubbles">Bubbles</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam dolores dolorem consequatur! Consequatur
+                unde laudantium harum magnam, perferendis minima, eos iste sapiente aspernatur dicta dolores eum
+                voluptatum facilis, reprehenderit fugiat.</p>
+            <p>Commodi accusamus optio nesciunt minima minus tempore dolorum ullam ea odio, quas molestiae vel
+                exercitationem accusantium incidunt totam veritatis cum, omnis, sint in quam magni et fugit. Quisquam,
+                deleniti a.</p>
+            <p>Commodi vel quia accusantium quam labore sint modi esse saepe iste voluptatem eveniet provident nostrum
+                quo, facilis debitis ipsa, qui soluta nihil? Mollitia nesciunt veritatis quaerat laborum, sunt vero
+                inventore.</p>
+            <p>Debitis magnam, porro consequatur modi quibusdam cum officiis ullam vero, voluptates eligendi laboriosam,
+                repellendus placeat corrupti delectus harum in tenetur quos nisi quisquam alias ut veniam. Quam,
+                blanditiis. Natus, nemo.</p>
+            <p>Asperiores animi enim quia! Eaque reprehenderit, maiores, vero numquam molestiae excepturi asperiores non
+                voluptatem atque nihil fuga voluptate praesentium obcaecati ex nemo. Adipisci, eveniet veritatis
+                incidunt laudantium magni nesciunt quasi?</p>
+
+            <h4 id="cosmo">Cosmo</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam dolores dolorem consequatur! Consequatur
+                unde laudantium harum magnam, perferendis minima, eos iste sapiente aspernatur dicta dolores eum
+                voluptatum facilis, reprehenderit fugiat.</p>
+            <p>Commodi accusamus optio nesciunt minima minus tempore dolorum ullam ea odio, quas molestiae vel
+                exercitationem accusantium incidunt totam veritatis cum, omnis, sint in quam magni et fugit. Quisquam,
+                deleniti a.</p>
+            <p>Commodi vel quia accusantium quam labore sint modi esse saepe iste voluptatem eveniet provident nostrum
+                quo, facilis debitis ipsa, qui soluta nihil? Mollitia nesciunt veritatis quaerat laborum, sunt vero
+                inventore.</p>
+            <p>Debitis magnam, porro consequatur modi quibusdam cum officiis ullam vero, voluptates eligendi laboriosam,
+                repellendus placeat corrupti delectus harum in tenetur quos nisi quisquam alias ut veniam. Quam,
+                blanditiis. Natus, nemo.</p>
+            <p>Asperiores animi enim quia! Eaque reprehenderit, maiores, vero numquam molestiae excepturi asperiores non
+                voluptatem atque nihil fuga voluptate praesentium obcaecati ex nemo. Adipisci, eveniet veritatis
+                incidunt laudantium magni nesciunt quasi?</p>
+        </div>
+
+
+
+        <h1>CAROUSEL</h1>
+        <h4 class="text-secondary">Ride, Interval, Pause</h4>
+        <div id="robotcarousel" class="carousel slide" data-bs-interval="1000" data-pause="true" data-bs-ride="true">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#robotcarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#robotcarousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img class="d-block w-100" src="https://pixelprowess.com/i/carousel_swamp.png" alt="swamp">
+                </div>
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="https://pixelprowess.com/i/carousel_flight.png" alt="flight">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#robotcarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#robotcarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="h1">ACCORDION</div>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Accordion Item #1
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the first item's accordion body.</strong> It is hidden by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                        does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Accordion Item #2
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                        that just about any HTML can go within the <code
+                            class="highlighter-rouge">.accordion-body</code>,
+                        though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                    aria-expanded="false" aria-controls="collapseThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Accordion Item #3
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                        that just about any HTML can go within the <code
+                            class="highlighter-rouge">.accordion-body</code>,
+                        though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="h1">TOAST</div>
+
+        <button type="button" class="btn btn-primary" id="basicToastBtn">Join us</button>
+        <button type="button" class="btn btn-info text-white" id="infoToastBtn">Info</button>
+
+        <div class="toast-container position-fixed top-0 end-0 p-3">
+            <div id="basicToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true"
+                data-bs-autohide="false">
+                <div class="toast-header bg-primary text-light d-flex justify-content-between">
+                    <h5 class="my-0">Join Our Company</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast"
+                        aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    <strong>Mind Numbing Products</strong> is a force in the manufacturing and production market. Our
+                    motto
+                    is If it’s not Mind Numbing, it’s not worth it.
+                </div>
+            </div>
+
+            <div id="infoToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true"
+                data-bs-animation="false" data-bs-delay="2000">
+                <div class="toast-body bg-info text-light d-flex justify-content-between">
+                    <p class="mb-0">As experts in lifting, moving, and nuts-and-bolting, the robotic population is an
+                        ideal
+                        match for industry and repetitive tasks.</p>
+                    <button type="button" class="btn-close btn-close-white ms-3" data-bs-dismiss="toast"
+                        aria-label="Close"></button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="h1">MODALES</div>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#centeredModal">
+            Centered
+        </button>
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sizedModal">
+            Sized
+        </button>
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fullScreenModal">
+            Full Screen
+        </button>
+
+
+        <div id="centeredModal" class="modal text-dark" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Centered</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Yay! You’ve launched all the robotettes and they are on their way to some other planet!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="sizedModal" class="modal text-dark" tabindex="-1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sized</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Yay! You’ve launched all the robotettes and they are on their way to some other planet!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="fullScreenModal" class="modal text-dark" tabindex="-1">
+            <div class="modal-dialog modal-fullscreen-lg-down">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Full Screen</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Yay! You’ve launched all the robotettes and they are on their way to some other planet!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="h1">COLLAPSE</div>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+            aria-expanded="false" aria-controls="collapseExample">
+            Collapse
+        </button>
+        <div class="collapse text-dark" id="collapseExample">
+            <div class="card card-body">
+                <p>Yay! You’ve launched all the robotettes and they are on their way to some other planet!</p>
+            </div>
+        </div>
+
+        <div class="h1">DROPDOWN</div>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown button
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+            </ul>
+        </div>
+
+        <div class="h1">TOOLTIPS</div>
+        <div class="d-inline-flex flex-column gap-3">
+            <button type="button" class="btn btn-secondary d-inline-block" data-bs-toggle="tooltip"
+                data-bs-placement="top" title="top">
+                top
+            </button>
+
+            <button type="button" class="btn btn-secondary d-inline-block" data-bs-toggle="tooltip"
+                data-bs-placement="right" title="right">
+                right
+            </button>
+
+            <button type="button" class="btn btn-secondary d-inline-block" data-bs-toggle="tooltip"
+                data-bs-placement="bottom" title="bottom">
+                bottom
+            </button>
+
+            <button type="button" class="btn btn-secondary d-inline-block" data-bs-toggle="tooltip"
+                data-bs-placement="left" title="left">
+                Tooltip on left
+            </button>
+        </div>
+
+        <div class="h1">POPOVER</div>
+        <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover"
+            data-bs-placement="top" data-bs-content="Top popover" title="Headline">
+            Popover on top
+        </button>
+        <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover"
+            data-bs-placement="right" data-bs-content="Right popover">
+            Popover on right
+        </button>
+        <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover"
+            data-bs-placement="bottom" data-bs-content="Bottom popover">
+            Popover on bottom
+        </button>
+        <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover"
+            data-bs-placement="left" data-bs-content="Left popover">
+            Popover on left
+        </button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script>
+    //TOAST
+    document.querySelector("#basicToastBtn").onclick = function () {
+        new bootstrap.Toast(document.querySelector('#basicToast')).show();
+    }
+
+    document.querySelector("#infoToastBtn").onclick = function () {
+        new bootstrap.Toast(document.querySelector('#infoToast')).show();
+    }
+
+    //POPOVER
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+    })
+
+</script>
+
+</html>
